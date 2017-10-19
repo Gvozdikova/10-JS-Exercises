@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="try.js"></script>
+	</head>
+<body>
+<div  id = "main-block" style="background-color: #66ffcc; width: 1000px; height: 1000px;border-radius: 50%; margin: 0 auto">
+
+<div id = "answer" style = "margin: 0 auto; text-align: center; padding-top:100px">
+<div  id="0">
+<h1> Let's have a journey together!</h1>
+<img src = "images/3.png" style="width:500px;align:center">
+<button style="margin:0 auto; display: block" onclick="showNum1()">Show me your JS</button>
+</div>
+</div>
+
+
+
+<div id = "answer1" style = "margin: 0 auto; text-align: center; padding-top:100px">
+<div  id = "1" style="display:none">
+<p style="font-weight: bold; font-size: 34px"><i>Number 1</i></p>
+<p style="width:600px; margin: 0 auto; padding-bottom: 60px"> Define a function <i>max()</i> that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.</p>
+<div>
+<img src = "images/5.png" style="width:300px; display:inline-block">
+<div style = "display: inline-block">
+<input type="text" name="firstNumb" id="firstNumb" placeholder="Enter a number" data-max = "3"><br><br>
+<p id="error"></p>
+<input type="text" name="secNumb" id="secNumb" placeholder="Enter a number" required <br><br>
+<p id="error2"></p>
+<input type="submit" name="submit" value="Let's go" onclick="maxOfTwo()">
+</div>
+</div>
+</div>
+</div>
+
+<br><br><br>
+<div id = "answer2" style = "margin: 0 auto; text-align: center">
+<div id = "2" style="display:none; margin-top: -60px">
+<p style="font-weight: bold; font-size: 34px"><i>Number 2</i></p>
+<p>Define a function <i>maxOfThree()</i> that takes three numbers as arguments and returns the largest of them.</p>
+<img src="images/4.png"s>
+<div>
+<input type="text" name="max1" id="max1" placeholder="Enter a number"><br><br>
+<p id="error"></p>
+<input type="text" name="max2" id="max2" placeholder="Enter a number"><br><br>
+<p id="error2"></p>
+<input type="text" name="max3" id="max3" placeholder="Enter a number"><br><br>
+<p id="error3"></p>
+<input type="submit" name="submit" value="Let's try" onclick="maxOfThree()">
+</div>
+</div>
+</div>
+
+<br><br><br>
+
+<div id = "answer" style = "margin: 0 auto; text-align: center">
+<div id = "3" style="display:none; margin-top: -100px;">
+<p style="font-weight: bold; font-size: 34px"><i>Number 3</i></p>
+<p style="width:900px; margin: 0 auto"> Write a function that takes a character(i.e. a string of length 1) and returns true if it is a vowel, false otherwise.</p>
+<input type="text" name="char" id="char" placeholder="Leave me a letter"><br><br>
+<p id="error"></p>
+<img src="images/1.png" style = "display: block; margin: 0 auto; width: 400px">
+<input type="submit" name="submit" value="Is it a vowel?"  style = "display: block; margin: 0 auto" onclick="validateForm3()">
+</div>
+</div>
+
+<br><br><br>
+<div id = "answer" class = "4" style = "margin: 0 auto; text-align: center">
+<div id = "4" style="display:none; margin-top: -160px">
+<p style="font-weight: bold; font-size: 34px"><i>Number 4</i></p>
+<p style="width: 800px; margin: 0 auto; padding-bottom: 15px"> Write a function <i>translate()</i> that will translate a text into "rovarspraket". That is, double every consonant and place an occurance of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".</p>
+<input type="text" name="word" id="word" placeholder="Leave a word here"><br><br>
+<p id="error"></p>
+<input type="submit" name="submit" value="Translate" onclick="validateForm4()">
+<img src="images/11.png" style="display: block; margin: 0 auto" >
+</div>
+</div>
+
+<br><br><br>
+<div id = "answer" style = "margin: 0 auto; text-align: center">
+<div id = "5" style="display:none; margin-top: -100px">
+<div style="display:inline-block; text-align:right">
+<img src="images/6.png">
+</div>
+<div style="display:inline-block; vertical-align: top">
+<p style="font-weight: bold; font-size: 34px"><i>Number 5</i></p>
+<p style = "width: 500px"> Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.</p>
+<input type="text" name="part" id="multpart1" placeholder="Number" style="display:inline-block">
+<p style="display:inline-block"> X </p> 
+<input type="text" name="part" id="multpart2" placeholder="Number" style="display:inline-block">
+<input type="submit" name="submit" value="Multiple this" onclick="calc()">
+<p id = "multResult" style="display:inline-block; background-color: #fff"></p><br><br>
+
+<input type="text" name="part" id="sumpart1" placeholder="Number" style="display:inline-block">
+<p style="display:inline-block"> + </p> 
+<input type="text" name="part" id="sumpart2" placeholder="Number" style="display:inline-block">
+<input type="submit" name="submit" value="Sum this" onclick="calc2()">
+<p id = "sumResult" style="display:inline-block; background-color: #fff"></p> <br><br><br><br>
+<input type="submit" name="submit" value="I'm done with that. What's next?" onclick="showNum6()">
+</div>
+</div>
+</div>
+
+<br><br><br>
+<div id = "answer" style = "margin: 0 auto; text-align: center">
+<div id = "6" style="display:none; margin-top: -220px">
+<p style="font-weight: bold; font-size: 34px"><i>Number 6</i></p>
+<p style="width: 700px; margin: 0 auto"> Define a function <i>reverse()</i> that computes the reversal of a string. For example, reverse('jag testar') should return the string 'ratset gaj'.</p>
+<input type="text" name="rev" id="revstring" placeholder="Type some words">
+<input type="submit" name="submit" value="Reverse this" onclick="reverseString()">
+<p id = "revResult" style="display:inline-block"></p><br><br>
+<img src="images/8.png"><br>
+<input type="submit" name="submit" value="Go ahead" onclick="showNum7()">
+</div>
+</div>
+
+<br><br><br>
+<div id = "answer" style = "margin: 0 auto; text-align: center">
+<div id = "7" style="display:none; margin-top: -260px">
+<p style="font-weight: bold; font-size: 34px"><i>Number 7</i></p>
+<p style="width: 700px; margin: 0 auto"> Represent a small bilingual lexicon as a Javascript object in the following fashion {"merry":"god", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"ar"} and use it to translate your Christmas cards from English into Swedish. </p>
+<input type="text" name="text" id="translation" placeholder="What do you want to translate?" style="width: 250px">
+<input type="submit" name="submit" value="Translate this into Swedish" onclick="translGreet()">
+<p id = "translateResult" style="display:inline-block"></p><br><br>
+<img src="images/f.png"><br>
+<input type="submit" name="submit" value="Next" onclick="showNum8()">
+</div>
+</div>
+
+<br><br><br>
+<div id = "answer" style = "margin: 0 auto; text-align: center">
+<div id = "8" style="display:none; margin-top: -340px">
+<p style="font-weight: bold; font-size: 34px"><i>Number 8</i></p>
+<p style="width: 800px; margin: 0 auto">Write a function <i>findLongestWord()</i> that takes an array of words and returns the length of the longest one.</p><br><br>
+<input type="text" name="text" id="seqword"  style = "width: 400px" placeholder="Few words, separated by a comma">
+<input type="submit" name="submit" value="Max word's length is" onclick="findLongestWord()"><br><br>
+<img src="images/7.png" style="display: inline-block">
+<div id = "result" style="display: inline-block; font-size: 30px">?</div>
+<div style="display: inline-block"> symbols </div><br>
+<input type="submit" name="submit" value="Cool!" onclick="showNum9()">
+<br><br>
+</div>
+</div>
+
+
+<br><br><br>
+<div id = "answer" style = "margin: 0 auto; text-align: center">
+<div id = "9" style="display:none; margin-top: -380px">
+<p style="font-weight: bold; font-size: 34px"><i>Number 9</i></p>
+<p style="width:800px; margin: 0 auto"> Write a function <i>filterLongWords()</i> that takes an array of words and an integer i and returns the array of words that are longer than i.</p>
+<input type="text" name="text" id="seqwords" style = "width: 400px" placeholder="Few words, separated by a comma">
+<input type="text" name="text" id="length" placeholder="what is the min length?">
+<input type="submit" name="submit" value="Find" onclick="filterLongWords()"><br>
+<div id = "resultSeq"></div>
+<button id= "hiddenBtn" style = "display:none; margin: 0 auto" onclick="showNum10()">I got it!</button><br>
+<img src="images/10.png">
+
+<br><br>
+</div>
+</div>
+
+<br><br><br>
+<div id = "answer"  style = "margin: 0 auto; text-align: center">
+<div id = "10" style="display:none; margin-top: -420px">
+<p id = "num" style="font-weight: bold; font-size: 34px"><i>Number 10</i></p>
+<button  id = "btn" style="width: 300px;height: 150px; font-size: 24px; background-color: #990000; color: #fff;display:none; margin: 0 auto" onclick="finalStep()">That's it. Wanna see the whole code?</button>
+<div id = "hidden" style = "font-size: 40px;display: none;margin: 0 auto; padding-top: 50px">
+<p>Oh, come on, you are a programmer! You already know where to find it!</p>
+<input type="button" name="button" value="Wanna do it again?" onclick="backToFirst()">
+<img src="images/final.png" style = "width:200px">
+</div>
+<p  id = "test" style="width:800px; margin: 0 auto; padding-bottom: 15px">Write a function <i>charFreq()</i> that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like charFreq("abbabcbdbdbcbadbddddaabdb")</p>
+<input type="text" name="text" id="sentence" placeholder="Text here">
+<input type="submit" name="submit" id = "submit" value="Make an object" onclick="charFreq()">
+<div id = "resultObj">  </div><br>
+<img id = "last" src="images/2.png" style="width:300px">
+<br><br>
+
+
+</div>
+</div>
+</div>
+</body>
+</html>
